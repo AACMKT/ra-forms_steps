@@ -1,0 +1,176 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: darkgray;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto;
+  min-width: 600px;
+  background-color: white;
+  padding: 0 12px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-align: start;
+  color: darkgray
+}
+
+.input-box {
+  box-sizing: border-box;
+  height: 50px;
+  width: 40%;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  margin: 10px 12px;
+  background-color: transparent;
+  color: darkgrey;
+  text-align: center;
+}
+
+input:focus,
+input:active {
+  border: 2px solid rgb(96, 96, 174);
+  outline: none;
+}
+
+.input-box-tiny {
+  box-sizing: border-box;
+  height: 50px;
+  width: 20%;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  margin: 10px 12px;
+  background-color: transparent;
+  color: darkgrey;
+}
+
+.input-box-tiny:hover {
+  border: 2px solid rgb(96, 96, 174)
+}
+
+.input-box-tiny:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.content-box {
+  box-sizing: border-box;
+  width: 40%;
+  text-align: start;
+  margin: 10px 12px;
+  padding-left: 12px;
+}
+
+.content-box-tiny {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  width: 20%;
+  text-align: start;
+  margin: 10px 12px;
+  padding-left: 12px;
+}
+
+.table-title {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-align: start;
+  color: darkgray
+}
+
+.align-center {
+  text-align: center;
+  padding-left: 0;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+  min-height: 100px;
+  margin: 0 12px;
+  border: 2px solid darkgray;
+  border-radius: 16px;
+  color: darkgray;
+  margin-bottom: 20px;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  
+}
+
+.del-btn {
+  color: red;
+  cursor: pointer;
+}
+.edit-btn {
+  color: black;
+  cursor: pointer;
+}
