@@ -52,7 +52,7 @@
   margin: auto;
   min-width: 600px;
   background-color: white;
-  padding: 0 12px;
+  padding: 12px;
   border: 1px solid transparent;
   border-radius: 16px;
 }
@@ -77,7 +77,7 @@
   width: 40%;
   border: 2px solid darkgray;
   border-radius: 10px;
-  margin: 10px 12px;
+  margin: 6px 12px;
   background-color: transparent;
   color: darkgrey;
   text-align: center;
@@ -111,9 +111,11 @@ input:active {
 }
 
 .content-box {
+  display: flex;
   box-sizing: border-box;
   width: 40%;
-  text-align: start;
+  align-items: center;
+  justify-content: start;
   margin: 10px 12px;
   padding-left: 12px;
 }
@@ -137,7 +139,8 @@ input:active {
 }
 
 .align-center {
-  text-align: center;
+  justify-content: center !important;
+  align-items: center !important;
   padding-left: 0;
 }
 
@@ -156,7 +159,7 @@ input:active {
   border: 2px solid darkgray;
   border-radius: 16px;
   color: darkgray;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .table-row {
